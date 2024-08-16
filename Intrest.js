@@ -1,6 +1,6 @@
 
 import React, { useEffect, useState } from 'react';
-import ReceivedInterestService from '../services/receivedInterestService';
+
 
 const ReceivedInterests = () => {
   const [interests, setInterests] = useState([]);
